@@ -1,4 +1,4 @@
-# Example of implementing custom markdown syntax and render it to Vue nodes
+# Example of implementing custom markdown syntax and rendering it to Vue nodes
 
 To run this for prototyping you can use Vue CLI. You can install it [as described here](https://cli.vuejs.org/guide/prototyping.html).
 
