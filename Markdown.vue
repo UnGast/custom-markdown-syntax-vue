@@ -2,7 +2,7 @@
 import Slider from './Slider'
 import { markdownToAst } from './markdown.js'
 import katex from 'katex'
-require('katex/dist/katex.min.css')
+import 'katex/dist/katex.min.css'
 
  export default {
     props: {
@@ -17,7 +17,8 @@ require('katex/dist/katex.min.css')
                     return createElement(
                         'p',
                         astNode.children.map(
-                            this.astNodeToVueNode.bind(this, createElement)))
+                            this.astNodeToVueNode.bind(
+                                this, createElement)))
                 case 'text':
                     return astNode.content
                 case 'link':
@@ -25,7 +26,8 @@ require('katex/dist/katex.min.css')
                         'a',
                         { domProps: { href: astNode.href } },
                         astNode.children.map(
-                            this.astNodeToVueNode.bind(this, createElement)))
+                            this.astNodeToVueNode.bind(
+                                this, createElement)))                
                 case 'slider':
                     return createElement(
                         Slider,
