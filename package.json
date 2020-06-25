@@ -1,0 +1,16 @@
+{
+  "name": "custom-markdown-syntax-example-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "katex": "^0.11.1",
+    "markdown-it": "^11.0.0",
+    "raw-loader": "^4.0.1"
+  }
+}
