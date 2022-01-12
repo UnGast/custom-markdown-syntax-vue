@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "katex": "^0.11.1",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "raw-loader": "^4.0.1"
   }
 }
